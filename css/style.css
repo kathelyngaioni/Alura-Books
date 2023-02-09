@@ -1,4 +1,4 @@
-/*@import url("css/header.css");*/
+@import url("css/header.css");
 
 :root {
   --cor-de-fundo: #EBECEE;
@@ -7,3 +7,4 @@
 body {
     background-color: var(--cor-de-fundo);
 }
+
