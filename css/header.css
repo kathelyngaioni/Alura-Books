@@ -1,3 +1,11 @@
+:root {
+  --cor-de-fundo: #EBECEE;
+  --cor-cabecalho: #FFFFFF;
+  --cor-titulo: #EB9B00;
+  --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+}
+
+
 .cabecalho__menu-hambuguer {
   width: 24px;
   height: 24px;
@@ -27,4 +35,20 @@
 }
 .container__botao:checked ~ .lista-menu{
   display: block;
+}
+
+.lista-menu__titulo {
+  color: #EB9B00;
+}
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: var(--cor-cabecalho);
+}
+
+.lista-menu__link {
+background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
 }
